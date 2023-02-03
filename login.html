@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login/Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+          <form action="home.html" id="login-form">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <p>Create an Account?<a href="#" id="switch-to-register">Sign up</a></p>
+          </form>
+          <form action="home.html" id="register-form">
+            <h2>Sign up</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign up</button>
+            <p>Have an Account?<a href="#" id="switch-to-login">Login</a></p>
+          </form>
+        </div>
+      </div>
+      
+  <script src="script1.js"></script>
+</body>
+</html>
+
